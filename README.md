@@ -14,3 +14,5 @@ SalonsInDubai.ae helps users find salons in Dubai quickly and efficiently. This 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/salons-in-dubai-extension.git
+## Links
+- [Largest Salons in Dubai Finder - SalonsInDubai.ae](https://salonsindubai.ae/)
