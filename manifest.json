@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "SalonsInDubai.ae - Salons In Dubai Finder",
+  "version": "1.0",
+  "description": "Easily find salons in Dubai with SalonsInDubai.ae. Search 3,134+ verified beauty, hair, and barber salons.",
+  "homepage_url": "https://salonsindubai.ae/",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": []
+}

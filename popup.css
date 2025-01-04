@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0; /* Remove padding to fit content precisely */
+  background: #fff; /* White background */
+  width: 450px; /* Fixed width */
+  height: 100%; /* Take full height of the window */
+  display: flex; /* Center content */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent scrolling */
+}
+
+.info-card {
+  width: 100%; /* Full width inside the body */
+  max-width: 450px; /* Prevent content from exceeding 700px */
+  margin: 0 auto; /* Center the card horizontally */
+  padding: 20px; /* Internal padding for consistent spacing */
+  background: none; /* Remove card background */
+  box-shadow: none; /* Remove shadow */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-weight: 400;
+  margin-bottom: 10px; /* Add spacing below header */
+}
+
+p {
+  color: #555;
+  font-weight: 400;
+  margin-bottom: 20px; /* Add spacing below paragraph */
+}
+
+.filter-group {
+  margin-bottom: 20px; /* Add spacing below each group */
+}
+
+.filter-group p {
+  margin-bottom: 10px; /* Add spacing below the group label */
+  font-weight: 600; /* Bold for "Salon Type" and "Location" */
+  color: #333;
+}
+
+.pill-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Equal spacing between pills */
+  justify-content: flex-start; /* Align pills to the left */
+}
+
+
+/* Pill Styling for Salon Type */
+#salon-type .pill {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #EEEAEB; /* Light mauve for default */
+  color: #9A6C81; /* Text color for default */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+#salon-type .pill.active {
+  background-color: #8A4B61; /* Darker mauve for active state */
+  color: #fff; /* White text for active state */
+}
+
+/* Pill Styling for Location */
+#location .pill {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #E6EEED; /* Light teal for default */
+  color: #4C9A93; /* Text color for default */
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+#location .pill.active {
+  background-color: #5E9080; /* Darker teal for active state */
+  color: #fff; /* White text for active state */
+}
+
+/* Search Button */
+.search-button {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 40px;
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+  margin-bottom: 8px; /* Slightly reduce spacing below the button */
+}
+
+.search-button:hover {
+  background-color: #333333;
+}
+
+/* Powered by Styling */
+.powered-by {
+  text-align: center;
+  margin-top: 5px; /* Reduce spacing above the powered-by section */
+  font-size: 12px;
+  color: #555;
+}
+
+.powered-by a {
+  color: #000; /* Black link color */
+  text-decoration: underline; /* Underlined */
+  font-size: 12px; /* Keep it compact */
+  font-weight: 400; /* Normal font weight */
+}
+
+.see-all-link {
+  margin-top: 5px; /* Reduce spacing above the link */
+  font-size: 12px; /* Smaller text for the links */
+  text-align: left; /* Align text to the left */
+  font-weight: 400; /* Normal weight */
+}
+
+.salon-type-link a {
+  color: #9A6C81; /* Same as the Salon Type pills */
+  text-decoration: none; /* Remove underline */
+}
+
+.salon-type-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.location-link a {
+  color: #4C9A93; /* Same as the Location pills */
+  text-decoration: none; /* Remove underline */
+}
+
+.location-link a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.list-your-salon {
+  text-align: center;
+  margin-top: 5px; /* Reduce spacing above this link */
+  font-size: 12px; /* Smaller font size for compactness */
+  font-weight: 400; /* Normal font weight */
+}
+
+.list-your-salon a {
+  color: #333; /* Neutral color for better visibility */
+  text-decoration: none; /* Remove underline */
+}
+
+.list-your-salon a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: #000; /* Darker hover color for emphasis */
+}
